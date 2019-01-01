@@ -1,23 +1,33 @@
-﻿*{
+﻿
+*{
 	margin:0;
 	top:0;
 }
 nav{
 	width:100%;
-	height:100px;
-	background-color:#262626;
+	height:85px;
+	background-color:#202121;
 	position:sticky;
 	line-height:100px;
 	font-family:'Fira Sans', sans-serif;text-align:right;
 	font-weight:bold;
+	border-style:solid;
+	border-color:000;
+	border-width:3px;
+	border-left-style:none;
+	border-right-style:none;
+	border-top-style:none;
 }
 nav a{
 	text-decoration:none;
 	color:#fff;
+	border-style:solid;
+	border-radius:10px;
 }
 nav a:hover{
 	font-size:1.1em;
-	color:#FFE500;
+	color:#000;
+	background-color:#E5D714;
 }
 nav li{
 	list-style-type:none;
@@ -26,7 +36,7 @@ nav li{
 	font-size:1.5em;
 }
 header{
-	  background: #000;
+	  background:#000;
 }
 header img{
 	max-width:100%;
@@ -35,11 +45,14 @@ header img{
 }
 
 section{
-	background-color:#414142;
+	background-color:#fff;
 	padding-left:10%;
 	padding-right:10%;
 	padding-top:30px;
 	padding-bottom:30px;
+	border-style:solid;
+	border-left-style:none;
+	border-right-style:none;
 }
 section h1{
 	padding-bottom:30px;
@@ -49,20 +62,17 @@ article p{
 	line-height:1.5em;
 	font-size:1.2em;
 	font-family: 'Oswald', sans-serif;
-	column-count:2;
 }
 footer{
 	width:100%;
-	height:100px;
-	background-color:#262626;
-}
-footer p{
-	text-align:center;
-	padding-top:25px;
-}
-footer img{
-	width:50px;
-
+	height:30px;
+	background-color:#202121;
+	border-style:solid;
+	border-color:#000;
+	border-width:3px;
+	border-left-style:none;
+	border-right-style:none;
+	border-bottom-style:none;
 }
 
 #parallax1{height:90vh;width:100%;background-image:url("grafika/2.jpg");background-size:cover;display:table;background-attachment:fixed;}
