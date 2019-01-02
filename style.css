@@ -45,15 +45,15 @@ header{
 }
 header img{
 	max-width:100%;
-	height:auto;
-	width:auto;
+	height:890px;
+	width:100%;
 }
 
 section{
 	background-color:#fff;
 	padding-left:10%;
 	padding-right:10%;
-	padding-top:30px;
+	padding-top:50px;
 	padding-bottom:30px;
 	border-style:groove;
 	border-color:#000;
